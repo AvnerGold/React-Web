@@ -1,0 +1,88 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.open {
+
+    display: none;
+  }
+
+.grid{
+  display: grid;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-bottom: 0rem;
+}
+
+.header{
+  grid-template-columns: [line1] 0fr [line2] 0fr [line3] auto [line4] 1fr [line5] 0fr ;
+  background-color: rgb(88, 131, 131);
+  align-items: center;
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  justify-content:left ;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header li{
+  text-decoration: none;
+  list-style:none;
+  padding:0;
+  margin:0px;
+  padding: 15px;
+  
+  
+}
+
+
+.header .right{
+  justify-content:right ;
+}
+
+.header a{
+    color:black; 
+    text-decoration:none;
+}
+
+.header .nav-item{
+  padding: 0px;
+}
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-top: 55px; /* Added */
+}
+
+
+/* carousel */
+.card-title {
+  color: #db0075;
+}
+.card-text {
+  color: #17E6E6;
+}
+.list-inline-item {
+  color: #ffd700
+}
+.price {
+  color: #9B1B30;
+}
+.btn-pink {
+  background-color: #fcb2b2 !important;
+}
+/*  */
