@@ -46,25 +46,6 @@ export default function Login() {
 
   return (
     <>
-
-    {/* <nav>
-      <ul>
-        <li><Link to="/">Login</Link></li>
-        <li><Link to="/register">register</Link></li>
-        <li><Link to="/home">home</Link></li>
-      </ul>
-     </nav>
-    <div>Login</div> */}
-
-       
-
-    {/* <form onSubmit={handleChange}>
-     mail:  <input type="text" /> <br />
-     password: <input type="number" /> <br />
-     <button type='submit'>submit</button>
-     
-    </form> */}
-
     <div className="login-dark">
         <form method="post" onSubmit={handleChange}>
             <h2 className="sr-only">Login Form</h2>

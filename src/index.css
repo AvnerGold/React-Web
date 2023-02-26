@@ -28,7 +28,7 @@ ul {
 
 .header{
   grid-template-columns: [line1] 0fr [line2] 0fr [line3] auto [line4] 1fr [line5] 0fr ;
-  background-color: rgb(88, 131, 131);
+  background-color:#BBC2A7;
   align-items: center;
   -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
   -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);

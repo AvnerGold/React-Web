@@ -7,7 +7,8 @@ import { UserContext } from '../context/UserContext'
 export default function Carousel({ProductId,name,price,sellPrice,image,category,info,quantity}) {
     
     const {cartItem,SetCartItem} = useContext(CartContext);
-    const {profile,SetProfile} = useContext(UserContext)
+    const {profile,SetProfile} = useContext(UserContext);
+    console.log(image);
 
     const AddToCart = (item) => {
         let isIn = false
@@ -43,7 +44,7 @@ const item = {
   
   <div className="col" id={ProductId}>
     <div className="card">
-      <Link to={`/infoproducts/${ProductId}`}><img src={image} className="card-img-top" alt="..."/></Link>
+      <Link to={`/infoproducts/${ProductId}`}><img src={`.${image}`} className="card-img-top" alt="..."/></Link>
       <div className="card-body">
         <h5 className="card-title d-flex justify-content-center">{name}  {category}</h5>
         <div className='d-flex justify-content-center'>
@@ -67,10 +68,4 @@ const item = {
    </>
   )
 
-//   "id":6,
-//   "name":"yop",
-//   "price":25,
-//   "sellPrice": 12,
-//   "image":"./images/productImg/flower-6.png",
-//   "category": "bouquet"
 }
