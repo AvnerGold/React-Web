@@ -54,7 +54,7 @@ const item = {
         </div>
         <div className="d-flex justify-content-center align-items-center pb-2 mb-1">
             {
-            profile == 1 ? <button type="button" className="btn btn-primary m-1" onClick={() => AddToCart(item)}>Edit</button> :
+            profile == 1 ?  <Link to={`/edit/${item.ProductId}`}><button type="button" className="btn btn-primary m-1" >Edit</button></Link> :
                            <button type="button" className="btn btn-primary " onClick={() => AddToCart(item)}>Add To Cart</button>
             }
               

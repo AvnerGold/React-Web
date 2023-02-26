@@ -8,7 +8,7 @@ export default function UserContextProvider({children}){
     const [users, SetUsers] = useState([]);
     const [profile,SetProfile] = useState(0);
     const [products,SetProducts] = useState([])
-    // const [cartItem,SetCartItem] = useState([])
+    
 
 
     const LoadUsers = async () => {
@@ -43,8 +43,6 @@ export default function UserContextProvider({children}){
         users,
         profile,
         products,
-        // cartItem,
-        // SetCartItem,
         SetProducts,
         SetUsers,
         SetProfile,

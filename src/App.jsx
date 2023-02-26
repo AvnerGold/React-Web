@@ -10,6 +10,7 @@ import InfoProduct from "./pages/InfoProduct"
 import Payment from "./pages/Payment"
 import Home from "./pages/Home"
 import Header from "./component/Header"
+import EditProduct from "./pages/EditProduct"
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
 
 
     <Routes>
+      <Route path="/edit/:id" element={<EditProduct/>} />
       <Route path="user/:id" element={<Profile/>} />
       <Route path="/" element={<Login/>}/>
       <Route path="/register" element={<Register/>}/>
