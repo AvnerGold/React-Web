@@ -29,6 +29,8 @@ export default function Header() {
             <li><a className="dropdown-item" href="#">Something else here</a></li>
           </div>
         </div>
+        {profile == 1 ? <li><Link to="/addproduct">add</Link></li> : null}
+        
         
                
        

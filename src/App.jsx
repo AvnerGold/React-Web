@@ -11,6 +11,7 @@ import Payment from "./pages/Payment"
 import Home from "./pages/Home"
 import Header from "./component/Header"
 import EditProduct from "./pages/EditProduct"
+import AddProduct from "./pages/AddProduct"
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
 
 
     <Routes>
+      <Route path="/addproduct" element={<AddProduct/>}/>
       <Route path="/edit/:id" element={<EditProduct/>} />
       <Route path="user/:id" element={<Profile/>} />
       <Route path="/" element={<Login/>}/>
