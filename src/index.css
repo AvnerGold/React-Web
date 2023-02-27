@@ -86,3 +86,66 @@ ul {
   background-color: #fcb2b2 !important;
 }
 /*  */
+
+/* addbox */
+.AddBox{
+  
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+.AddBox form{
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 2%;
+  background-color: #BBC2A7;
+}
+
+.AddBox form input{
+  width: 150px;
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.AddBox .form-group{
+  width: 225px;
+
+}
+
+
+/* .AddBox form{
+  grid-template-columns: 3fr;
+  background-color: red; */
+/* } */
+
+/* .form-group {
+  margin-bottom: 1rem;
+  
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-group input:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+} */
